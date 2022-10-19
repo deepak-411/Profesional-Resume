@@ -1,0 +1,238 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Deepak Kumar } \\ \vspace{1pt}
+    \small (+91)799-229-8486 $|$ \href{mailto:x@x.com}{\color{blue}{dk3624897@gmail.com}}$|$ 
+    \href{https://www.linkedin.com/in/deepak-kumar-587a011a5/}{{LinkedIn:\color{blue}Deepak Kumar}}$|$
+    \href{https://github.com/deepak-411}{{GitHub:\color{blue}deepak-411}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+ \resumeSubHeadingListStart
+  \resumeSubheading
+    {{Maharishi Markandeshwar 
+(Deemed to be University) 
+}}{Mullana Ambala,Haryana}
+      {B.Tech in Computer Science and Engineering  | CGPA : 8.075/10}{2019 --  2023}
+  
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+     {{{School Authority}}}{March 2019 -- Feb. 2020}
+      {Inspire Award Manak , National Innovation Foundation-India ,(DST India)}{Chakia  Bihar}
+      \resumeItemListStart
+        \resumeItem{I was working  as a school authority at inspire award manak, it is a national level innovation Competition for class 6 to 10 , conduct by national innovation foundation india and Department of Science and Technology india }
+      \resumeItemListEnd
+   \resumeSubheading
+     {{{Internship Trainee}}}{Oct.05 2020 -- Oct.16 2020}
+      {NIELIT CALICUT}{online}
+     \resumeItemListStart
+        \resumeItem{IEP on FPGA Based Embedded Systems organized by NIELIT CALICUT during 05th to 16th October 2020, supported through C2SD (SMDP-III) Project.}
+         \resumeItemListEnd
+\resumeSubheading
+     {{{Software Engineer Intern}}}{June 2022 -- Aug.  2022}
+      {Juspay}{Bangalore, India}
+      \resumeItemListStart
+        \resumeItem{Worked on Software Developer provide seamless & choiceful industry payment options and experiences to customer}
+        \resumeItem{Tech Stack: Java,SQL,C++, JavaScript.}
+        
+        \resumeItemListEnd
+   \resumeSubHeadingListEnd     
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Railway Reservation System (University Project)}
+          {\href{https://github.com/deepak-411/railway-reservation-system}{\faGithub}} $|$ \emph{C++,Data DFLOW}}{Jan 2021 -- May 2021}
+          \resumeItemListStart
+            \resumeItem{Railway Ticket Reservation is an application that enables users to book their tickets of railway online this application also provides numerous facilities through which it becomes easier for a person to book their ticket }
+          \resumeItemListEnd
+           \resumeProjectHeading
+          {\textbf{MMDU UMS APP (University Project)}
+         {\href{https://github.com/deepak-411/MMDU-UMS-APP}{\faGithub}} $|$ \emph{Java, Android studio }}{july  2021 -- Dec 2021}
+          \resumeItemListStart
+            \resumeItem{MMDU UMS APP is an application that enables users to use all university student and employee to check own 
+details and numerous facilities through which it becomes easier for a person for enables user to use many 
+information}
+     \resumeItemListEnd
+       \resumeProjectHeading
+        {\textbf{Deepak's Algorithm}
+        {\href{https://github.com/deepak-411/Deepak-s-Algorithm}{\faGithub}} $|$
+        \emph{Algorithm , Explanation , Example,  C++}}{may 2022 -- Oct 2022}
+\resumeItemListStart
+  \resumeItem{when we solve  problem then find queries
+Deepak's Algorithm sorting system, if we sort queries of L values and if same then use R values
+It's basically help the current query to be answered efficiently by taking the result of the previous query}
+      
+      \resumeItemListStart
+       \resumeItem{\textbf{Note :}{  20 Innovative Projects Done In Field  :}{Agriculture ,Medical ,Healthcare ,Environment  and Software}}
+       
+       
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Achievements}
+          \resumeItemListStart
+            \resumeItem{\textbf{Young Scientist Award, VDGOOD 2020}}
+         \resumeItem{\textbf{HackerEarth}
+        handle: \href{https://www.hackerearth.com/@DeepakInnovator}{\color{blue}{Deepak Kumar}} (Data Structure 3 Star, Basic Programing 3 Star,  Algorithm 2 Star , C++ 5 Star + Explorer Level)}
+          \resumeItem{\textbf{KVPY FELLOW SX 2019 (IISC , Banglore)} \href{}{\color{blue}{}}{\color{blue}{}} }
+          \resumeItem{\textbf{Technothlon,State Topper, IIT GUWAHATI, 2018}}
+           \resumeItem{\textbf{Young Scientist India - 2020-2021, Space kidz india and NITI Aayog}
+           \href{}{\color{blue}{}} \resumeItem{\textbf{Allen Champ :}{Silver Medlist}}}
+          \resumeItem{\textbf{Scientist for a day Innovation Award, NASA USA, 2018-19}}
+           \resumeItem{\textbf{Flipkart software Hiring challenge, 2021, 2022}}
+           \resumeItem{\textbf{Note :}{More than 100+ National and International Level  Innovation, Scholastic And Coding  Achievements}}
+         
+             \resumeItemListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, Java , JavaScript , HTML , Node.js, React , SQL (MySQL)} 
+     
+     \textbf{Software Packages}{: OpenCV,XAMPP, Android Studio, React.js , Node.js}   
+      
+     \textbf{Android App Development}{: Java}
+     
+     \textbf{Web Development} (beginner){: HTML, CSS, React, Node.js}
+     
+     \textbf{Other}{: SAP, SAPABAP, RestAPI, API}\\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
